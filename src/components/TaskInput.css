@@ -1,0 +1,38 @@
+.task-form {
+  margin: 0.5rem 0;
+}
+
+.task-form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.task-form input {
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.task-form input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.task-form.invalid input {
+  border-color: red;
+  background: #ffd7d7;
+}
+
+.task-form.invalid label {
+  color: red;
+}
+
+input {
+  height: 30px;
+  margin-bottom: 1rem;
+}
